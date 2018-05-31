@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/AppTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout style="@style/MainLayout">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/energetic"
+            style="@style/Cards">
+
+            <ImageView
+                style="@style/ImageViewStyle"
+                android:background="@drawable/energetic"
+                android:contentDescription="@string/energetic" />
+
+            <TextView
+                style="@style/H1Style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/energetic" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/exciting"
+            style="@style/Cards">
+
+            <ImageView
+                style="@style/ImageViewStyle"
+                android:background="@drawable/exciting"
+                android:contentDescription="@string/exciting" />
+
+            <TextView
+                style="@style/H1Style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/exciting" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/concentrating"
+            style="@style/Cards">
+
+            <ImageView
+                style="@style/ImageViewStyle"
+                android:background="@drawable/concentrating"
+                android:contentDescription="@string/concentrating" />
+
+            <TextView
+                style="@style/H1Style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/concentrating" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/relaxing"
+            style="@style/Cards">
+
+            <ImageView
+                style="@style/ImageViewStyle"
+                android:background="@drawable/relaxing"
+                android:contentDescription="@string/relaxing" />
+
+            <TextView
+                style="@style/H1Style"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/relaxing" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/melancholic"
+            style="@style/Cards">
+
+            <ImageView
+                style="@style/ImageViewStyle"
+                android:background="@drawable/melancholic"
+                android:contentDescription="@string/melancholic" />
+
+            <TextView
+                style="@style/H1Style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/melancholic" />
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

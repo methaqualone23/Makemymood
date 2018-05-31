@@ -1,0 +1,52 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#424242</item>
+        <item name="colorPrimaryDark">#212121</item>
+        <item name="colorAccent">#ffeb3b</item>
+        <item name="android:textColorPrimary">#ffffff</item>
+        <item name="android:textColorSecondary">#000000</item>
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">#212121</item>
+    </style>
+
+    <style name="MainLayout">
+        <item name="android:background">#212121</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="Buttons">
+        <item name="android:background">#ffeb3b</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="Cards">
+        <item name="android:background">#212121</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">140dp</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="H1Style">
+        <item name="android:textSize">34sp</item>
+        <item name="android:fontWeight" tools:targetApi="o">100</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_gravity">bottom</item>
+    </style>
+
+    <style name="BodyTextStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#fafafa</item>
+    </style>
+
+    <style name="ImageViewStyle">
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+</resources>

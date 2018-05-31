@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Make my mood</string>
+    <string name="energetic">Energetic</string>
+    <string name="exciting">Exciting</string>
+    <string name="concentrating">Concentrating</string>
+    <string name="relaxing">Relaxing</string>
+    <string name="melancholic">Melancholic</string>
+</resources>
