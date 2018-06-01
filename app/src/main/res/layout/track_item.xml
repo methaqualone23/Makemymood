@@ -19,6 +19,7 @@
         android:paddingLeft="16dp">
 
         <TextView
+            style="@style/BodyTextStyle"
             android:id="@+id/track_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>

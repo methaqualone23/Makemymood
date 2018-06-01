@@ -16,6 +16,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".EnergeticActivity"
+            android:label="@string/energetic" />
+
+        <activity
+            android:name=".ExcitingActivity"
+            android:label="@string/exciting" />
+
+        <activity
+            android:name=".ConcentratingActivity"
+            android:label="@string/concentrating" />
+
+        <activity
+            android:name=".RelaxingActivity"
+            android:label="@string/relaxing" />
+
+        <activity
+            android:name=".MelancholicActivity"
+            android:label="@string/melancholic" />
     </application>
 
 </manifest>
