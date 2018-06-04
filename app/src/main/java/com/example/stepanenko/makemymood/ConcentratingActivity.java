@@ -40,7 +40,6 @@ public class ConcentratingActivity extends AppCompatActivity {
         tracks.add(new Track(R.drawable.music_circle, "Can't Stop", "Red Hot Chili Peppers"));
         tracks.add(new Track(R.drawable.music_circle, "Knockin' On Heaven's Door", "Guns N' Roses"));
 
-
         TrackAdapter itemsAdapter = new TrackAdapter(this, tracks);
         ListView listView = findViewById(R.id.list);
         listView.setAdapter(itemsAdapter);
