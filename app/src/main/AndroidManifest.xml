@@ -12,30 +12,34 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
         <activity
             android:name=".EnergeticActivity"
-            android:label="@string/energetic" />
+            android:label="@string/energetic"
+            android:parentActivityName="com.example.stepanenko.makemymood.MainActivity" />
 
         <activity
             android:name=".ExcitingActivity"
-            android:label="@string/exciting" />
+            android:label="@string/exciting"
+            android:parentActivityName="com.example.stepanenko.makemymood.MainActivity" />
 
         <activity
             android:name=".ConcentratingActivity"
-            android:label="@string/concentrating" />
+            android:label="@string/concentrating"
+            android:parentActivityName="com.example.stepanenko.makemymood.MainActivity" />
 
         <activity
             android:name=".RelaxingActivity"
-            android:label="@string/relaxing" />
+            android:label="@string/relaxing"
+            android:parentActivityName="com.example.stepanenko.makemymood.MainActivity" />
 
         <activity
             android:name=".MelancholicActivity"
-            android:label="@string/melancholic" />
+            android:label="@string/melancholic"
+            android:parentActivityName="com.example.stepanenko.makemymood.MainActivity" />
     </application>
 
 </manifest>

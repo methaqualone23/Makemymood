@@ -1,26 +1,26 @@
 package com.example.stepanenko.makemymood;
 
 public class Track {
-    private int mTrackArt;
-    private String mTitle;
-    private String mArtist;
+    private int listTrackArt;
+    private String listTitle;
+    private String listArtist;
 
     public Track(int trackArt, String title, String artist) {
-        mTrackArt = trackArt;
-        mTitle = title;
-        mArtist = artist;
+        listTrackArt = trackArt;
+        listTitle = title;
+        listArtist = artist;
 
     }
 
-    public int getmTrackArt() {
-        return mTrackArt;
+    public int getlistTrackArt() {
+        return listTrackArt;
     }
 
-    public String getmTitle() {
-        return mTitle;
+    public String getlistTitle() {
+        return listTitle;
     }
 
-    public String getmArtist() {
-        return mArtist;
+    public String getlistArtist() {
+        return listArtist;
     }
 }

@@ -43,5 +43,7 @@ public class ExcitingActivity extends AppCompatActivity {
         TrackAdapter itemsAdapter = new TrackAdapter(this, tracks);
         ListView listView = findViewById(R.id.list);
         listView.setAdapter(itemsAdapter);
+
+
     }
 }

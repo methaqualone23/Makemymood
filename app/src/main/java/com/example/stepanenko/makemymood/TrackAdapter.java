@@ -26,13 +26,13 @@ public class TrackAdapter extends ArrayAdapter<Track> {
         }
 
         ImageView artImageView = playlistItemView.findViewById(R.id.track_art);
-        artImageView.setImageResource(currentTrack.getmTrackArt());
+        artImageView.setImageResource(currentTrack.getlistTrackArt());
 
         TextView trackTextView = playlistItemView.findViewById(R.id.track_title);
-        trackTextView.setText(currentTrack.getmTitle());
+        trackTextView.setText(currentTrack.getlistTitle());
 
         TextView artistTextView = playlistItemView.findViewById(R.id.track_artist);
-        artistTextView.setText(currentTrack.getmArtist());
+        artistTextView.setText(currentTrack.getlistArtist());
 
         return playlistItemView;
     }
